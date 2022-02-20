@@ -1,0 +1,15 @@
+
+html {background-color:  #180578}
+
+
+/* .color-background {
+  background: linear-gradient(to right, blue, red);
+}
+*/
+
+body{
+	color:  white;
+	font-size:  18px;
+	font-family 'tahoma';
+	text-align: right;
+}

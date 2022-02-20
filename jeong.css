@@ -1,0 +1,127 @@
+body {
+    background:url('jeong.gif') no-repeat fixed center;
+-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,0 0 92px #fff;
+}
+
+/*text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,0 0 92px #fff*/
+
+nav{
+    background-image:url('jeong.gif');
+    background-size:100%;
+    position: fixed;
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-left: 43px;
+    padding-bottom: 10px;
+    width: 97%;
+    top: 0px;
+}
+
+h1{
+    margin-left: 45px;
+    margin-top: 45px;
+
+}
+
+
+.answer{
+    width:  45vw;
+    padding-left: 45px;
+    font-size: 18px;
+
+}
+
+.question{
+    width: 48vw;
+    text-align: right;
+    position:  sticky;
+    top: 10px;
+    vertical-align: top;
+    font-size: 20px;
+}
+
+
+
+
+div{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+
+
+
+.filler:hover{
+    font-size: 50px;
+}
+
+
+
+
+/*notes
+
+button:hover{
+    background-color: #fbbd01;
+
+}
+
+<div class="tooltip"</div>
+
+.tooltip{
+    display: none;
+}
+a:hover .tooltip {
+    display: block;
+}
+
+
+
+ANIMATIONS
+
+@keyframes fade {
+    from{
+    opacity: 1;
+    }
+    to {
+    opacity: 0.01;
+    }
+}
+
+div{
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-iteration-count: 1,2,3, ... infinite;
+    animation-direction: forwards, backwards, alternate (looping boomerang), reverse;
+}
+
+
+JUMP LINKS
+<nav>
+<a href="one">01:00</a>
+  <a> href="two">02:00</a>
+   <a> href="three">03:00</a>
+</nav>
+
+nav{
+    position: fixed;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
