@@ -1,15 +1,30 @@
 
-html {background-color:  #180578}
+
 
 
 /* .color-background {
   background: linear-gradient(to right, blue, red);
 }
+html {background-color:  #180578}
 */
 
 body{
+	background: linear-gradient(to bottom, blue, red);
 	color:  white;
-	font-size:  18px;
-	font-family 'tahoma';
-	text-align: right;
+	font-size:  24px;
+	font-family: "tahoma";
+	text-align: center;
+}
+
+#top {
+	font-size: 80px;
+	text-shadow: 2px 2px greenyellow;
+}
+
+#projects{
+	color: greenyellow;
+}
+
+#exercises{
+	color:  greenyellow;
 }
