@@ -8,28 +8,68 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,0 0 92px #fff;
+    text-shadow: 0 0 20px #fff, 0 0 42px #fff, 0 0 50px #fff;
 }
 
 /*text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff,0 0 92px #fff*/
 
+
+@keyframes fade{
+    from {
+        opacity:  1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*
+<nav>
+                Skip to: 
+                <a href="#five">05:00</a>
+
+                <a href="#ten">10:00</a>
+
+                <a href="#fifteen">15:00</a>
+
+                <a href="#twenty">20:00</a>
+
+                <a href="#twenty5">25:00</a>
+
+                </nav>
 nav{
-    background-image:url('jeong.gif');
+    /*background-image:url('jeong.gif');
     background-size:100%;
     position: fixed;
     font-size: 12pt;
-    padding-top: 10px;
-    padding-left: 43px;
+    color: #ffffff;
+    text-align: right;
+    margin-top: 55%;
+    padding-right: 20px;
     padding-bottom: 10px;
     width: 97%;
     top: 0px;
+    /*
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"><style type="text/css">.blur{filter:url(%23softedge);}</style><filter id="softedge"><feGaussianBlur stdDeviation="3.5"></feGaussianBlur></filter><g class="blur"><rect x="10" y="10" width="80" height="80"/></g></svg>'); 
+    -webkit-mask-size: cover;
 }
+*/
 
 h1{
     margin-left: 45px;
-    margin-top: 45px;
+    margin-top: 70px;
+      font-size: 120px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+  animation-name: fade;
+  animation-delay: 3s;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  text-shadow: 0 0 10px #fff;
+
 
 }
+
 
 
 .answer{
@@ -49,7 +89,22 @@ h1{
 }
 
 
+.freeze{
 
+background:url('davidfreeze.jpg') no-repeat fixed center;
+-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    height:100vh;
+    width: 100vw;
+    text-align: right;
+    font-size: 20px;
+    
+}
+
+#freeze{
+
+}
 
 div{
     margin: 0;
@@ -61,9 +116,13 @@ div{
 
 
 .filler:hover{
-    font-size: 50px;
+    /*font-size: 50px;*/
+    opacity: 1.0;
 }
 
+.filler{
+    opacity: 0.05;
+}
 
 
 
@@ -116,7 +175,29 @@ nav{
     background-color: white;
 }
 
-
+<a href="#one">01:00</a>
+<a href="#two">02:00</a>
+<a href="#three">03:00</a>
+<a href="#four">04:00</a>
+<a href="#six">06:00</a>
+<a href="#seven">07:00</a>
+<a href="#eight">08:00</a>
+<a href="#nine">09:00</a>
+<a href="#eleven">11:00</a>
+<a href="#twelve">12:00</a>
+<a href="#thirteen">13:00</a>
+<a href="#fourteen">14:00</a>
+<a href="#sixteen">16:00</a>
+<a href="#seventeen">17:00</a>
+<a href="#eighteen">18:00</a>
+<a href="#nineteen">19:00</a>
+<a href="#twenty1">21:00</a>
+<a href="#twenty2">22:00</a>
+<a href="#twenty3">23:00</a>
+<a href="#twenty4">24:00</a>
+<a href="#twenty6">26:00</a>
+<a href="#twenty7">27:00</a>
+<a href="#twenty8">28:00</a>
 
 
 
