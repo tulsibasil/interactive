@@ -1,0 +1,28 @@
+
+.title{
+	font-family: abstract;
+	font-size: 25vw;
+	text-align: center;
+	vertical-align: middle;
+	opacity: 40%;
+}
+
+.message{
+	font-family: abstract;
+	font-size: 50vw;
+	text-align: center;
+	vertical-align: middle;
+	opacity: 40%;
+}
+
+@font-face {
+  font-family: abstract;
+  src: url(aAbstractGroovy.otf);
+}
+
+.type{
+	opacity: 30%;
+	 position: fixed;
+  	bottom: 10px;
+ 	 left: 5px;
+}
