@@ -59,7 +59,7 @@ body {
     and (device-height: 844px) 
     and (-webkit-device-pixel-ratio: 3) { 
   .container {
-    width: 125%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
