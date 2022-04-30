@@ -1,0 +1,48 @@
+@font-face {
+  font-family: amatic;
+  src: url(AmaticSC-Regular.ttf);
+}
+
+
+
+* {
+  font-family:  amatic;
+  font-size: 48px;
+}
+
+#sembut{
+  color: blue;
+}
+
+#worbut{
+  color: green;
+}
+
+.pagelink{
+  margin-left: 28vw;
+
+}
+
+.info {
+  position: fixed;
+  bottom: 2px;
+  left: 2px;
+}
+
+.info * {
+  display: inline;
+}
+
+.bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color:  white;
+  text-align: center;
+  font-size: 30px;
+}
+
+body {
+  background: black;
+}
