@@ -93,18 +93,11 @@ function showRows() {
         console.log(row.fields.Game);
         console.log(today);
         if (today == row.fields.Date) {
+            if (Number.isFinite(parseFloat(row.fields.WordleNumber))){
             const friend = document.createElement("h2");
             friend.innerText = row.fields.Name;
             friend.classList.add('friendz'); 
             document.body.appendChild(friend);
-
-        // if (row.fields.Game == "Semantle") {
-        //     var sscore = document.createElement("h2");
-        //     sscore.innerText = row.fields.SemantleNumber;
-        //     sscore.classList.add('semz');
-        //     document.body.appendChild(sscore);
-        //     console.log(row.fields.Game);
-        // }
 
 
         if (row.fields.Game == "Wordle") {
@@ -113,6 +106,7 @@ function showRows() {
             wscore.classList.add('worz');
             document.body.appendChild(wscore);
             console.log(row.fields.Game);
+        }
         }
         }
 
