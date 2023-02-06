@@ -1,0 +1,144 @@
+body{
+	background-color: ghostwhite;
+}
+
+@font-face{
+	font-family: prisma;
+	src: url(prisma.otf);
+}
+
+.shapes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	z-index: 1;
+}
+
+
+@keyframes color {
+	from {background-color: none;}
+	to {background-color: black;}
+}
+
+@keyframes rotate {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
+
+@keyframes rotatecc {
+	from {transform: rotate(360deg);}
+	to {transform: rotate(0deg);}
+}
+
+@keyframes distance {
+	from {margin-top: 0px}
+	to {margin-top: 20px}
+}
+
+#circle{
+	width: 150px;
+	height: 150px;
+	background-color: none;
+	border: solid;
+	border-color: black;
+	border-radius: 75px;
+	margin-bottom: 75px;
+	mix-blend-mode: hard-light;
+	animation-name: color;
+  	animation-duration: 2s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+
+#circle2{
+	width: 150px;
+	height: 150px;
+	background-color: none;
+	border: solid;
+	border-color: black;	
+	border-radius: 50px;
+	margin-bottom: -500px;
+	mix-blend-mode: hard-light;
+	animation-name: rotate;
+    animation-duration: 4s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+
+#circle3{
+	width: 150px;
+	height: 150px;
+	background-color: none;
+	border: solid;
+	border-color: black;
+	border-radius: 75px;
+	margin-bottom: -45px;
+	mix-blend-mode: hard-light;
+	animation-name: distance;
+    animation-duration: 2s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+
+.lines{
+  	
+  	padding: 0;
+  	z-index: -1;
+  	margin-top: -800px;
+  	margin-left: -10px;
+}
+
+#one{
+	border-top: 50px solid;
+	width: 1700px;
+	animation-name: rotatecc;
+    animation-duration: 8s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: linear;
+  	z-index: -1;
+}
+
+#two{
+	border-top: 40px solid;
+	width: 500px;
+	animation-name: rotate;
+    animation-duration: 10s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: linear;
+  	z-index: -1;
+}
+
+#three{
+	border-top: 2px solid;
+	width: 2500px;
+	animation-name: rotatecc;
+    animation-duration: 5s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: linear;
+  	z-index: -1;
+}
+
+
+#four{
+	border-top: 10px solid;
+	width: 3050px;
+	animation-name: rotate;
+    animation-duration: 20s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: linear;
+  	z-index: -1;
+}
+
+#bw{
+	font-size: 400px;
+	font-family: prisma;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	z-index: 2;
+  	filter: invert(1);
+	mix-blend-mode: difference;
+	background-color: none;
+}
+
+
